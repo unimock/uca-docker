@@ -1,0 +1,10 @@
+version: '2'
+services:
+  uuca:
+    ##################################################
+    # BUILD section
+    ##################################################
+    build:
+      context: ./build
+      dockerfile: Dockerfile
+    image: unimock/uca-docker:latest
